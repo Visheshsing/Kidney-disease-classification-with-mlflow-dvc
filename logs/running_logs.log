@@ -1,0 +1,64 @@
+[2025-08-27 20:16:30,223: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 20:16:30,240: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 20:17:33,854: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 20:17:33,858: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 20:25:33,301: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 20:25:33,304: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 20:35:12,294: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 20:35:12,297: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 22:00:19,544: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 22:00:19,555: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 22:02:07,673: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 22:02:07,677: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 22:07:41,728: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 22:07:41,731: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 22:13:05,125: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 22:13:05,128: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 22:17:22,109: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 22:17:22,112: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 22:20:09,621: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2025-08-27 22:20:09,625: INFO: common]: YAML file: params.yaml loaded successfully
+[2025-08-27 22:20:09,628: INFO: 827634124]: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2025-08-27 22:20:51,971: INFO: 827634124]: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2025-08-28 21:20:08,795: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-28 21:20:08,800: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-28 21:20:08,805: INFO: common: created directory at: artifacts]
+[2025-08-28 21:20:08,809: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-28 21:20:08,811: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-02 19:31:52,790: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-02 19:31:52,816: ERROR: main: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Kidney-disease-classification-with-mlflow-dvc\main.py", line 9, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "C:\Users\hp\Desktop\Kidney-disease-classification-with-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+TypeError: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self'
+[2025-09-02 19:40:28,108: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-02 19:40:28,109: ERROR: main: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Kidney-disease-classification-with-mlflow-dvc\main.py", line 9, in <module>
+    data_ingestion.main()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\Kidney-disease-classification-with-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+TypeError: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self'
+[2025-09-02 19:47:44,436: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-02 19:47:44,437: ERROR: main: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Kidney-disease-classification-with-mlflow-dvc\main.py", line 9, in <module>
+    data_ingestion.main()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\Kidney-disease-classification-with-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+TypeError: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self'
+[2025-09-02 19:51:56,271: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-02 19:51:56,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-02 19:51:56,275: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-02 19:51:56,276: INFO: common: created directory at: artifacts]
+[2025-09-02 19:51:56,278: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-02 19:51:56,280: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-02 19:53:45,063: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-02 19:53:46,628: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
